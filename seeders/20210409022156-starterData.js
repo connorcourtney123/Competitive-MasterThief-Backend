@@ -14,20 +14,20 @@ module.exports = {
     */
     await models.user.bulkCreate([
       { name : 'Connor',
-        username: 'CocoSavage',
+        userName: 'CocoSavage',
         score: '5',
         wins: '3',
         losses: '0',
         password: 'Connor'},
       { name: 'Annie',
-        username: 'BuggleGlum',
+        userName: 'BuggleGlum',
         score: '6',
         wins: '2',
         losses: '0',
         password: 'Annie'
       },
       { name : 'Emma',
-        username: 'EmmaGem',
+        userName: 'EmmaGem',
         score: '2',
         wins: '4',
         losses: '0',
